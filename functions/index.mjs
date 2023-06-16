@@ -5,7 +5,7 @@ import Cartoons from '../route/Cartoons.mjs'
 const app = express();
 
 app.get('/', (req, res ) => {
-    res.send('Hello!');
+    res.send('Bobur aka qalesiz!');
 });
 
 app.use('/cartoons', Cartoons);
