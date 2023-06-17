@@ -4,7 +4,7 @@
  const route = express.Router();
 
  const data = []
- route.get('/cartoons', async (req, res) => {
+ route.get('/get_all', async (req, res) => {
     for (let i = 0; i < 100; i++) {
         const newFakeData = {
             fullName: faker.person.fullName(),
