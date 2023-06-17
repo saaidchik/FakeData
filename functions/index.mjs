@@ -1,6 +1,6 @@
 import express from "express";
 import serverless from 'serverless-http'
-import Cartoons from '../route/Type.mjs'
+import Type from '../route/Type.mjs'
 
 const app = express();
 
