@@ -1,6 +1,6 @@
 import express from "express";
 import serverless from 'serverless-http'
-import Cartoons from '../route/Cartoons.mjs'
+import Cartoons from '../route/Type.mjs'
 
 const app = express();
 
@@ -8,7 +8,7 @@ app.get('/', (req, res ) => {
     res.send('Bobur aka qalesiz!');
 });
 
-app.use('/cartoons', Cartoons);
+app.use('/type', Types);
 
 const serverlessApp = serverless(app);
 
