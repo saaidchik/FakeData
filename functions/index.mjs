@@ -8,7 +8,7 @@ app.get('/', (req, res ) => {
     res.send('Bobur aka qalesiz!');
 });
 
-app.use('/type', Types);
+app.use('/type', Type);
 
 const serverlessApp = serverless(app);
 
