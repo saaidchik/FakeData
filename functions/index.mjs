@@ -5,7 +5,7 @@ import Type from '../route/Type.mjs'
 const app = express();
 
 app.get('/', (req, res ) => {
-    res.send('Bobur aka qalesiz!');
+    res.send('Akobirlo ukam qalesan! Telefon oynama! Darsini qil! Xoziroq telli ochir! ');
 });
 
 app.use('/type', Type);
