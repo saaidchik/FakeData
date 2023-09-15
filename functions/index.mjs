@@ -5,7 +5,7 @@ import Type from '../route/Type.mjs'
 const app = express();
 
 app.get('/', (req, res ) => {
-    res.send('Фардис кале брат, прическала бошкачаю а ?');
+    res.send('Фардис кале брат, прическала бошкачаю а 777?');
 });
 
 app.use('/type', Type);
